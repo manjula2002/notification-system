@@ -6,7 +6,6 @@ def notifyMe(title, message):
     notification.notify(
         title = title,
         message = message,
-        app_icon = none,
         timeout = 10,
     )
 
